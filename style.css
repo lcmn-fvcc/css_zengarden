@@ -1,0 +1,353 @@
+/* Laura Mills Nelson
+   Interactive Web I, MART_231_90_FA2019
+   December 9th, 2019  
+   NOTE: THIS STYLE SHEET LOOKS BEST IN FIREFOX */
+   
+   
+
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+body { 
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+a:link { 
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #FEF200;
+}	
+
+a:hover {
+	text-decoration: none;
+	color: #FEF200;
+}	
+
+/* specific divs */
+
+.page-wrapper { 
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+/*CSS Zen Garden*/
+header h1 { 
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	width: 284px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 2.2em;
+}
+
+/*The Beauty of CSS Design*/
+header h2 { 
+	background-color: #403F3F;
+	color: #FFFFFF;
+	text-align: center;
+	width: 240px;
+	padding: 20px 84px 0px;
+	margin-left: 30px;
+	margin-top: 180px;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 2em;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-left-style: dashed;
+	border-color: #000000;
+	border-width: 5px;
+}
+
+/* "A demonstration of what can be accomplished..." */
+#zen-summary {  
+	background-color: #403F3F;
+	color: #FFFFFF;
+	text-align: left;
+	width: 368px;
+	padding: 20px;
+	margin-top: -30px;
+	margin-left: 30px;
+	height: 160px;
+	font-size: 1.1em;
+	border-bottom-style: dashed;
+	border-right-style: dashed;
+	border-left-style: dashed;
+	border-color: #000000;
+	border-width: 5px;
+}
+
+/* The Road to Enlightenment */	
+#zen-preamble { 
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: left;
+	width: 428px;
+	padding: 20px;
+	margin-top: 20px;
+	height: 428px;
+	font-size: 1.1em;
+	line-height: 130%;
+}
+
+/* So What Is This About? */
+#zen-explanation {	
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: left;
+	width: 428px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 732px;
+	height: 428px;
+	font-size: 1.1em;
+	line-height: 130%;
+}
+
+/* Participation */
+#zen-participation { 
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: left;
+	width: 672px;
+	padding: 20px;
+	margin-top: 20px;
+	height: 428px;
+	font-size: 1.1em;
+	line-height: 130%;
+}		
+
+/* Benefits -- THIS IS AN EXAMPLE THAT EACH MINI BOX IS 224px WIDE */
+#zen-benefits { 
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: left;
+	width: 184px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-left: 732px;
+	height: 428px;  /*this is two boxes tall plus the 20px inbetween (with 20px padding included*/
+	font-size: 1.1em;
+	line-height: 130%;
+}		
+
+/* Requirements */
+.requirements[role="article"] { 
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: left;
+	width: 1160px;
+	padding: 20px;
+	margin-top: 20px;
+	height: 428px;
+	font-size: 1.1em;
+	line-height: 130%;
+}		
+
+/* formats "By Dave Shea" box */
+[role=contentinfo] { 
+	background-color: #403F3F;
+	color: #FFFFFF;
+	text-align: center;
+	width: 428px;
+	padding: 20px;
+	float: left;
+	margin-top: 58px; 
+	margin-left: 346px;
+}
+
+
+/* formats navigation bar in footer */	
+footer { 	
+	background-color: #6F6B6B;
+	color: #FFFFFF;
+	text-align: center;
+	width: 428px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 125px;
+}
+
+
+
+/* formats "Select a Design" header */
+.sidebar h3.select { 
+	background-color: #403F3F;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 2em;
+
+}
+
+/* formats "Select a Design" box */
+.sidebar div.design-selection {
+	background-color: #403F3F;
+	color: #FFFFFF;
+	text-align: left;
+	width: 368px;
+	height: 275px;
+	padding: 0px 20px 20px 20px;
+	float: right;
+	margin-top: -2929px;
+	margin-right: 30px;
+	font-size: 1.05em;
+	line-height: 125%;
+	border-style: dashed;
+	border-color: #000000;
+	border-width: 5px;
+}
+
+
+/* formats "Archives" header */
+.sidebar h3.archives {
+	color: #000000;
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 1.85em;
+}	
+
+/* formats "Archives" box */
+.sidebar div.design-archives {
+	color: #000000;
+	text-align: left;
+	width: 224px;
+	padding: 0px 20px 20px;
+	float: right;
+	margin-right: 40px;
+	margin-top: -164px;
+	/* background-color: #1eebeb; */
+}
+/* formats "Archives" links */
+.sidebar div.design-archives a:link {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.sidebar div.design-archives a:visited {
+	text-decoration: none;
+	color: #6F6B6B;
+	font-weight: bold;
+}
+
+.sidebar div.design-archives a:hover {
+	text-decoration: none;
+	color: #6F6B6B;
+	font-weight: bold;
+}
+
+/* formats "Resources" header */
+.sidebar h3.resources {
+	color: #000000;
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 1.85em;
+
+}
+
+/* formats "Resources" box */
+.sidebar div.zen-resources {
+	color: #000000;
+	text-align: left;
+	width: 224px;
+	margin-left: 40px;
+	margin-top: -166px;
+	padding-bottom: 40px;
+	float: left;
+}
+
+/* formats "Resources" links */
+.sidebar div.zen-resources a:link {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+
+.sidebar div.zen-resources a:visited {
+	text-decoration: none;
+	color: #6F6B6B;
+	font-weight: bold;
+}
+		
+.sidebar div.zen-resources a:hover {
+	text-decoration: none;
+	color: #6F6B6B;
+	font-weight: bold;
+}		
+
+/* background images */
+
+/* pixel with stars image */
+div.extra1 { 
+	background-image: url(pixel_stars.png);
+	background-repeat: no-repeat;
+	height: 224px;
+	margin-top: -3175px;
+	margin-left: 55px;
+}
+
+/* pixel fishing image */
+div.extra2 { 
+	background-image: url(pixel_fishing.png);
+	background-repeat: no-repeat;
+	height: 224px;
+	margin-top: -220px;
+	margin-left: 840px;
+}
+
+/* pixel lookout image */
+div.extra3 { 
+	background-image: url(pixel_lookout.png);
+	background-repeat: no-repeat;
+	height: 224px;
+	margin-left: 495px;
+	margin-top: -20px;
+}
+
+/* grid1 image */
+div.extra4 { 
+	background-image: url(grid1.png);
+	background-repeat: no-repeat;
+	height: 956px;
+	width: 1200px;
+	margin-top: 139px;
+	
+}
+
+/* grid2 image */
+div.extra5 {
+	background-image: url(grid2.png);
+	background-repeat: no-repeat;
+	height: 956px;
+	width: 1200px;
+	margin-top: 20px;
+}
+
+
+
+
+
